@@ -1,0 +1,56 @@
+
+html, body {
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: inherit;
+}
+
+main {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   max-width: 800px;
+   width: 80%;
+   margin: 50px auto;
+}
+
+pre, code {
+   text-align: left;
+}
+
+h2 {
+   color: #555;
+}
+
+/* To override some of the styles of bootstrap */
+button.btn {
+   font-size: 1.5em;
+   border-radius: 0.5em;
+}
+
+#output {
+  border: 2px #EBEBEB solid;
+  border-radius: 25px;
+  min-height: 100px;
+  padding: 2rem;
+}
+
+nav ul.navbar-nav {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li.nav-item {
+  margin: auto 10px;
+}
+
+@media screen and (max-width: 700px) {
+   html, body {
+      font-size: 10px;
+   }
+}
