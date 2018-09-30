@@ -28,14 +28,16 @@
     tries: 17
   }
 
-  test with `node test.js`
+  test with `node test.js stats.json`
+  or `node test.js stats_2.json`
 */
-
-const json = require('./stats.json');
 
 function countStats(list) {
   // HINT: maybe REDUCE the problem ;)
-  console.log(list, json);
+  return {
+    matches: 0,
+    tries: 0
+  };
 }
 
 module.exports = countStats;
