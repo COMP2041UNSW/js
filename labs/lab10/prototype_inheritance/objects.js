@@ -13,8 +13,7 @@
  * Animal class
  *
  * me.__proto__ should be Animal
- * me.__proto__.__proto__ should be Animal
- * me.sayWoof() should return 'woof!'
+ * me.makeSound() should print out 'woof'
  *
  */
 
