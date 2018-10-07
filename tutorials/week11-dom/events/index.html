@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Render a basic list</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-okaidia.min.css">
+      <link rel="stylesheet" href="/assets/css/basic.css">
+   </head>
+   <body>
+      <main role="main" id="main">
+         <h1>Basic Events Example</h1>
+         <h2>Click things to see the DOM react to the click event.</h2>
+         <pre class="language-js"><code class="language-js">
+const out = document.getElementById('output')
+window.addEventListener('click', clicker)
+
+function clicker(event) {
+   out.innerText = "Text Content: " + event.target.innerText
+}</code></pre>
+         <br>
+         <div id="output"></div>
+      </main>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-core.min.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-clike.min.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-javascript.min.js" charset="utf-8"></script>
+      <script src="events.js"></script>
+   </body>
+</html>
