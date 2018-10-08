@@ -33,7 +33,9 @@
 */
 
 function countStats(list) {
+
   // HINT: maybe REDUCE the problem ;)
+  
   return {
     matches: 0,
     tries: 0

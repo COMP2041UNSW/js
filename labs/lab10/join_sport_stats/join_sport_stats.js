@@ -1,5 +1,5 @@
 /*
-* Given a list of career stats for a team of rugby players,
+* Given a list of career statistics for a team of rugby players,
 * a list of player names, and a list of team names, in the format below:
 *
 * players
@@ -16,6 +16,7 @@
 *         "coach": "John Simmons"
 *     }
 * }
+*
 * names
 * {
 *     "names": [
@@ -25,6 +26,7 @@
 *         }
 *     ]
 * }
+*
 * teams
 * {
 *     "teams": [
@@ -34,7 +36,8 @@
 *         }
 *     ]
 * }
-* Write a program that returns a 'team sheet' that lists
+*
+* Write a function that returns a 'team sheet' that lists
 * the team, coach, players in that order in the following list format.
 *
 * [
@@ -47,10 +50,9 @@
 * Where each element is a string, and the order of the players
 * is ordered by the most number of matches played to the least number of matches played.
 *
-* For example, the following input should match the
-* following output exactly.
+* For example, given the following the 3 arguments:
 *
-* input data
+* teamData =
 * {
 *     "players": [
 *         {"id": 1,"matches": "123", "tries": "11"},
@@ -63,21 +65,20 @@
 *     }
 * }
 *
-* {
-*     "names": [
-*         {"id": 1, "John Fake"},
-*         {"id": 2, "Jimmy Alsofake"},
-*         {"id": 3, "Jason Fakest"}
-*     ]
-* }
+* namesData =
+* [
+*    {"id": 1, "John Fake"},
+*    {"id": 2, "Jimmy Alsofake"},
+*    {"id": 3, "Jason Fakest"}
+* ]
 *
-* {
-*     "teams": [
-*         {"id": 10, "Greenbay Packers"},
-*     ]
-* }
+* teamsData =
+* [
+*     {"id": 10, "Greenbay Packers"},
+* ]
 *
-* output
+* makeTeamList should return
+*
 * [
 *     "Greenbay Packers, coached by John Simmons",
 *     "1. John Fake",
@@ -89,7 +90,10 @@
 * `node test.js team.json names.json teams.json`
 */
 
-function makeTeamList(teamData, namesData, teamsData) {
+
+function (teamData, namesData, teamsData) {
+
+	// PUT YOUR CODE HERE
     // Take it step by step.
 
 }
