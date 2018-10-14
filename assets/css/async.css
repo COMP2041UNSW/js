@@ -28,3 +28,31 @@
     flex-direction: row;
     flex-wrap: wrap;
  }
+
+ .img-post {
+   border: 2px solid #EBEBEB;
+   text-align: center;
+   padding: 1rem;
+   border-radius: 10px;
+   margin-bottom: 1rem;
+ }
+  .img-post p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: grey;
+  }
+  .information {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  .active {
+    color: #4582EC !important;
+  }
+  a {
+    cursor: pointer;
+  }
+  .information ul {
+    margin-top: 1rem;
+  }
