@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dog Loader</title>
+    <style>
+        body {
+            font-family: 'Charlie Display';
+        }
+
+        h1 {
+            font-family: 'Charlie Display';
+            font-weight: 500;
+            font-size: 52px;
+            line-height: 60px;
+            color: #253858;
+            margin-bottom: 24px;
+        }
+
+        #dog {
+            width: 500px;
+            height: 500px;
+        }
+
+        .centered {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="dog" class="centered" src="">
+    <h1 id="loader" class="hide centered">Loading<span>...</span></h1>
+    <button id="dog-button">Give me a new dog</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

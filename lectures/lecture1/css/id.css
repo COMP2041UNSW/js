@@ -1,0 +1,13 @@
+/* 
+    Highest precedence 
+    But applies to only
+    _one_ element.
+*/
+
+#nav {
+    font-weight: bold;
+}
+
+#logo {
+    opacity: 0.5;
+}

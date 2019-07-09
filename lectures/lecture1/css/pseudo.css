@@ -1,0 +1,14 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+/* box with an additional red class will turn red on hover */
+.box.red:hover {
+    background-color: red;
+}
+
+/* A normal box will turn black */
+.box:hover {
+    background-color: black;
+}
