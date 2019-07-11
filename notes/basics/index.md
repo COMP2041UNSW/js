@@ -1,11 +1,11 @@
 # Basics
 
-- [Quickstart & Environment Setup](/render.html?p=/notes/basics/quickstart.md)
-- [Overview](/render.html?p=/notes/basics/overview.md)
-- [More on Objects](/render.html?p=/notes/basics/objects.md)
-- [Thinking functional](/render.html?p=/notes/basics/functions.md)
-- [Using DevTools](/render.html?p=/notes/basics/devtools.md)
-- [Using Node with JS](/render.html?p=/notes/basics/node.md)
+- [Quickstart & Environment Setup](render.html?p=notes/basics/quickstart.md)
+- [Overview](render.html?p=notes/basics/overview.md)
+- [More on Objects](render.html?p=notes/basics/objects.md)
+- [Thinking functional](render.html?p=notes/basics/functions.md)
+- [Using DevTools](render.html?p=notes/basics/devtools.md)
+- [Using Node with JS](render.html?p=notes/basics/node.md)
 
 ## Disclaimer:
 Learning any programming language in three weeks is **impossible**,
