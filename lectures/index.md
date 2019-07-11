@@ -16,11 +16,11 @@
     - [pseudo](render.html?l=css&c=lectures/lecture1/css/pseudo.css)
     - [tags](render.html?l=css&c=lectures/lecture1/css/tags.css)
 - Google Contact Clone
-    - [Live](/lectures/lecture1/)
+    - [Live](lectures/lecture1/)
     - [HTML](render.html?l=html&c=lectures/lecture1/index.html)
     - [CSS](lecture1/style.css)
 - Dog Generators
-    - [Live](/lectures/lecture1/doggo)
+    - [Live](lectures/lecture1/doggo)
     - [HTML](render.html?l=html&c=lectures/lecture1/doggo/index.html)
     - [JS](render.html?l=js&c=lectures/lecture1/doggo/script.js)
 
