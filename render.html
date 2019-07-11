@@ -32,9 +32,33 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-core.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-clike.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-javascript.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-css.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/components/prism-markup.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.5.0/marked.min.js"></script>
     <script>
-        fetch('README.md')
+        const pairs = document.location.search.substr(1).split("&").map(x => x.split("="));
+        
+        const args = {};
+        for (const pair of pairs) {
+            args[pair[0]] = pair[1];
+        }
+        if (args['c']) {
+            const l = args['l']
+            fetch(args['c'])
+            .then(res => res.text())
+            .then(text => {
+                return Promise.resolve(`\`\`\`${l}\n${text}\n\`\`\``)
+            })
+            .then(marked)
+            .then(html => {
+                const main = document.createElement('main')
+                main.innerHTML = html
+                document.body.appendChild(main)
+            })
+            .then(Prism.highlightAll)
+            .catch(err => console.error(err))
+        } else {
+            fetch(args['p'])
             .then(res => res.text())
             .then(marked)
             .then(html => {
@@ -44,6 +68,7 @@
             })
             .then(Prism.highlightAll)
             .catch(err => console.error(err))
+        }
     </script>
 </body>
 </html>

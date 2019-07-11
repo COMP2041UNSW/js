@@ -14,6 +14,11 @@ Additional resources you may find useful from around the web.
 * [Basic DOM Manipulation](https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom)
 * [Bubbling And Capturing](https://javascript.info/bubbling-and-capturing)
 
+## CSS
+* [Flex Box Froggy](https://flexboxfroggy.com/)
+* [Grid Garden](https://codepip.com/games/grid-garden/)
+* [CSS Grid Changed Everything](https://www.youtube.com/watch?v=7kVeCqQCxlk)
+
 ## Frameworks
 * [React](https://reactjs.org/)
 * [Vue.js](http://vuejs.org/)

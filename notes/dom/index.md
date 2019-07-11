@@ -1,7 +1,7 @@
 # What the DOM?
 
 This is Part 2 in a three part overview of JavaScript. If you missed Part 1,
-it's available [here](../basics).
+it's available [here](/render.html?p=/notes/basics/index.md).
 
 In this part we'll talk about the Document Object Model:
 * What it is and how we can manipulate it with JavaScript
