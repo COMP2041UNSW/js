@@ -12,6 +12,8 @@ const shoppingCart = [
  // let's say tax of 10% for GST and a 5 % first customer discount
  const discount = multiply(0.95);
  const tax = multiply(1.10);
+// (b) => b * 0.95
+// const totalPrice = discount(price);
 
  // the format required for sum
  const sum = (acc, curr) => curr + acc;
@@ -22,5 +24,6 @@ const shoppingCart = [
      .map(discount)
      .map(tax)
      .reduce(sum, 0);
+console.log(shoppingCart);
     
 console.log(totalPrice);

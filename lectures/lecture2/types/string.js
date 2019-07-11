@@ -16,5 +16,5 @@ const fullName  = 'Alex' + ' ' + 'Hinds' // Alex Hinds
 const fullNameWithTemplate = `${firstName} ${lastName}`;
 
 // strings also have a number of methods natively available
-anotherThing.toUpperCase() // HELLO WORLD
-anotherThing.replace(/[aeiouAEIOU]/, ''); // Hll Wrld
+const upper    = anotherThing.toUpperCase() // HELLO WORLD
+const replaced = anotherThing.replace(/[aeiouAEIOU]/g, ''); // Hll Wrld

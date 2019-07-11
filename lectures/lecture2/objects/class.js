@@ -14,4 +14,6 @@ class Person {
   }
 }
 
-new Person('Jeff', 'Goldblum', 50);
+const jeff = new Person('Jeff', 'Goldblum', 50);
+
+console.log(jeff.canDrinkAlcohol(), jeff.getFullName());

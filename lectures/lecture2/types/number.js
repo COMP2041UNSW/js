@@ -15,4 +15,9 @@ const shortFloat = longFloat.toFixed(2);
 // toString translates to baseX representation
 const binaryRepresentation  = anInt.toString(2);
 
+let x = 'abbbajlksad'
+x = Number(x); // NaN
+x = parseInt(x); // NaN
+x = +x; // NaN
+
 // there are many more

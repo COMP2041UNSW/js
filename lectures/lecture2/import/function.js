@@ -2,4 +2,8 @@ function getBatteryPower(battery) {
     return battery.powerLevel;
 }
 
-export { getBatteryPower };
+function getCarPower() {
+    return 10;
+}
+
+export { getBatteryPower, getCarPower };
