@@ -1,7 +1,7 @@
 # Async JS, AJAX
 
 This is Part 3 in a three part overview of JavaScript. If you
-missed the first two parts they're available [here](/render.html?p=/notes/basics/index.md) and [here](/render.html?p=/notes/dom/index.md).
+missed the first two parts they're available [here](render.html?p=notes/basics/index.md) and [here](render.html?p=notes/dom/index.md).
 In this section we'll cover the basics of JavaScript in an asynchronous context.
 
 ## Introduction
