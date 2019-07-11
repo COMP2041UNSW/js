@@ -4,8 +4,8 @@ This is Part 1 in a three part overview of JavaScript.
 
 In this part we'll talk about the basics:
 * The language syntax and semantics (this article)
-* [Objects](/render.html?p=/notes/basics/objects.md)
-* [Functions](/render.html?p=/notes/basics/functions.md) and declarative JavaScript.
+* [Objects](render.html?p=notes/basics/objects.md)
+* [Functions](render.html?p=notes/basics/functions.md) and declarative JavaScript.
 
 ## The Language
 
@@ -80,7 +80,7 @@ JavaScript allows us to have features that are common-place in native applicatio
 
 ## In the browser
 
-There are a number of ways to declare scripts in the browser. More on that [here](/render.html?p=/notes/basics/quickstart.md).
+There are a number of ways to declare scripts in the browser. More on that [here](render.html?p=notes/basics/quickstart.md).
 
 ```html
 <!DOCTYPE html>

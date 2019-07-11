@@ -8,9 +8,9 @@ Along with the labs and tutorials there are a number of links and lessons, in ad
 We strongly encourage you to read as much as you can, watch videos to get a better sense of the language and best practice web development.
 
 * [Course Website](https://cgi.cse.unsw.edu.au/~cs2041/19T2/index.html)
-* [General JS Notes](/render.html?p=/notes/index.md)
-* [Lectures](/render.html?p=/lectures/index.md)
-* [Additional Resources](/render.html?p=/resources.md)
+* [General JS Notes](render.html?p=notes/index.md)
+* [Lectures](render.html?p=lectures/index.md)
+* [Additional Resources](render.html?p=resources.md)
 
 ## Disclaimer:
 Learning any programming language in three weeks is **impossible**,
