@@ -1,9 +1,10 @@
 # Lectures
-
-### Week 1 - Introduction To JS
 <br>
 
-**Tuesday Lecture: Introduction to web**
+### Week 1 - Introduction To JS
+<hr class="underline" style="background: var(--warning)">
+
+<div class="blockheading" style="border-color: var(--warning)">Tuesday Lecture: Introduction to web</div>
 
 - [Download Slides](lectures/pdfs/lecture-1-into-to-the-web.pdf)
 - HTML Examples
@@ -24,7 +25,7 @@
     - [HTML](render.html?l=html&c=lectures/lecture1/doggo/index.html)
     - [JS](render.html?l=js&c=lectures/lecture1/doggo/script.js)
 
-**Thursday Lecture: Introduction to js**
+<div class="blockheading" style="border-color: var(--warning)">Thursday Lecture: Introduction to JS</div>
 
 Note not all of the provided examples were covered in the lecture but the are all provided anyway as some extra reading. 
 
@@ -83,7 +84,15 @@ Note not all of the provided examples were covered in the lecture but the are al
     - [string.js](render.html?l=js&c=lectures/lecture2/types/string.js)
 
 ### Week 2 - The DOM and Events
-<br>
+<hr class="underline" style="background: var(--info)">
+
+<div class="blockheading" style="border-color: var(--info)">Tuesday Lecture: TBA</div>
+
+<div class="blockheading" style="border-color: var(--info)">Thursday Lecture: TBA</div>
 
 ### Week 3 - Async Programming And You
-<br>
+<hr class="underline" style="background: var(--purple)">
+
+<div class="blockheading" style="border-color: var(--purple)">Tuesday Lecture: TBA</div>
+
+<div class="blockheading" style="border-color: var(--purple)">Thursday Lecture: TBA</div>

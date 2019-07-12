@@ -61,6 +61,23 @@ li.nav-item {
    margin-right: 0.5rem;
 }
 
+.underline {
+   width: 100%;
+   border: none;
+   padding: 0px;
+   margin: 0px;
+   margin-top: 0.2rem;
+   margin-bottom: 2rem;
+   height: 2px;
+}
+
+.blockheading {
+   padding-left: 1rem;
+   border-left: 5px solid;
+   margin-bottom: 0.5rem;
+   font-weight: bold;
+}
+
 @media screen and (max-width: 700px) {
    html, body {
       font-size: 10px;
