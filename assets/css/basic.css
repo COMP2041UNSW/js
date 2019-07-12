@@ -49,6 +49,18 @@ li.nav-item {
   margin: auto 10px;
 }
 
+.breadcrumbs {
+   background: #e9ecef;
+   padding: 0.4rem 1rem;
+   border-radius: 0.2rem;
+   color: #777;
+}
+
+.breadcrumbs i {
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+}
+
 @media screen and (max-width: 700px) {
    html, body {
       font-size: 10px;

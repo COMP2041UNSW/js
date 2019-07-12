@@ -179,7 +179,11 @@
         fetch(args["c"])
           .then(res => res.text())
           .then(text => {
-            return Promise.resolve(`\`\`\`${l}\n${text}\n\`\`\``);
+            const path = args['c'].replace(/\//g,'<i>\/</i>')
+            const breadcrumb = `<div class='breadcrumbs'>${path}</div>\n\n`
+            const code = `\`\`\`${l}\n${text}\n\`\`\``
+            const rawLink = `\n\n<a href="${args['c']}"><button class="btn btn-info" style="font-size:1rem">Raw Code</button></a>`
+            return Promise.resolve(breadcrumb+code+rawLink);
           })
           .then(marked)
           .then(html => {

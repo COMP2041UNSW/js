@@ -1,33 +1,29 @@
-/* const let var nothing
- * loop types
- * concept of undefined with functions
- * try and detect when names not provided
- *        name == false
- */
 function buttonClicked() {
-  let name = Library.getInput("name");
-  let crush = Library.getInput("crush");
-  if (name == false) {
-    Library.print("Enter in some names!");
-    return;
-  }
+	Library.clearOutput();
+	user = Library.getInput("name");
+	crush = Library.getInput("crush");
+	if (user == false) {
+		Library.print("no name provided");
+		return;
+	}
 
-  let a = crush.split(",");
-  let i = 0;
-  for(name of a) {
-    console.log(name);
-  }
+	l = crush.split(",");
+	for(i of l) {
+		judge(Math.random()*100,i);
+	}
 }
 
-function getPercentageChance() {
-  x = Math.random()*100;
-  return x;
-}
-
-function printOutMessage(n,a) {
-  if(a < 50) {
-    Library.print(n+": Not gonna happen");
-  } else {
-    Library.print(n+": True Love!");
-  }
+function judge(x, n) {
+	if (x < 50)
+		Library.print(n + ": Not Likely :/");
+	else if (x < 60)
+		Library.print(n + ": hmm maybe? :/");
+	else if (x < 70)
+		Library.print(n + ": hmm maybe? ;)");
+	else if (x < 80)
+		Library.print(n + ": I'd say so ;D");
+	else if (x < 90)
+		Library.print(n + ": Oh yeah it'll happen");
+	else if (x <= 100)
+		Library.print(n + ": It's love!");
 }

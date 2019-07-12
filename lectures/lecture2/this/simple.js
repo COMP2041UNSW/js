@@ -1,7 +1,26 @@
-/* global vs context vs object
- * make object with global scope
- * make classic object
- * __proto__
- * call / apply
- * have a function that attaches a prototype to the this of a constructor, runs it then returns the object.
- */
+a = 'global'
+
+let test = {
+  a: 'object',
+  func: function() {
+    return this.a
+  }
+}
+
+function test2() {
+  return this.a
+}
+
+function test3() {
+  let a = 'nested'
+  function test4() {
+    a = this.a
+  }
+  test4()
+  return a
+}
+
+console.log(test.func())
+console.log(test2())
+console.log(test2.call({ a: 'context' }))
+console.log(test3())
