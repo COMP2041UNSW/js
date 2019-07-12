@@ -12,7 +12,7 @@ JavaScript execution in the browser.
 On most browsers, you can access console output, by opening
 browser devtools. It'll look something like this on `Chrome`.
 
-<img src="/notes/basics/devtools.png" style="width: 100%"/>
+<img src="notes/basics/devtools.png" style="width: 100%"/>
 
 For the most basic type of debugging, you can use:
 
