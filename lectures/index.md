@@ -90,17 +90,17 @@ Note not all of the provided examples were covered in the lecture but the are al
 - [Download Slides](lectures/pdfs/lecture-3-dom-and-events.pdf)
 
 - Scrolling Example
-    - [Live](lectures/lecture3/scrolling)
+    - [Live](lectures/lecture3/scrolling/scrolling.html)
     - [HTML](render.html?l=html&c=lectures/lecture3/scrolling/scrolling.html)
     - [JS](render.html?l=js&c=lectures/lecture3/scrolling/scrolling.js)
 
 - Keyboard Events Example
-    - [Live](lectures/lecture3/keyboard)
+    - [Live](lectures/lecture3/keyboard/keyboardevents.html)
     - [HTML](render.html?l=html&c=lectures/lecture3/keyboard/keyboardevents.html)
     - [JS](render.html?l=js&c=lectures/lecture3/keyboard/keyboardevents.js)
 
 - Color Picker Example
-    - [Live](lectures/lecture3/colorpicker)
+    - [Live](lectures/lecture3/colorpicker/colorpicker.html)
     - [HTML](render.html?l=html&c=lectures/lecture3/colorpicker/colorpicker.html)
     - [JS](render.html?l=js&c=lectures/lecture3/colorpicker/colorpicker.js)
 
