@@ -87,6 +87,7 @@ Note not all of the provided examples were covered in the lecture but the are al
 <hr class="underline" style="background: var(--info)">
 
 <div class="blockheading" style="border-color: var(--info)">Tuesday Lecture: DOM API and Events</div>
+
 - [Download Slides](lectures/pdfs/lecture-3-dom-and-events.pdf)
 
 - Scrolling Example
