@@ -86,7 +86,23 @@ Note not all of the provided examples were covered in the lecture but the are al
 ### Week 2 - The DOM and Events
 <hr class="underline" style="background: var(--info)">
 
-<div class="blockheading" style="border-color: var(--info)">Tuesday Lecture: TBA</div>
+<div class="blockheading" style="border-color: var(--info)">Tuesday Lecture: DOM API and Events</div>
+- [Download Slides](lectures/pdfs/lecture-3-dom-and-events.pdf)
+
+- Scrolling Example
+    - [Live](lectures/lecture3/scrolling/scrolling.html)
+    - [HTML](render.html?l=html&c=lectures/lecture3/scrolling/scrolling.html)
+    - [JS](render.html?l=js&c=lectures/lecture3/scrolling/scrolling.js)
+
+- Keyboard Events Example
+    - [Live](lectures/lecture3/keyboard/keyboardevents.html)
+    - [HTML](render.html?l=html&c=lectures/lecture3/keyboard/keyboardevents.html)
+    - [JS](render.html?l=js&c=lectures/lecture3/keyboard/keyboardevents.js)
+
+- Color Picker Example
+    - [Live](lectures/lecture3/colorpicker/colorpicker.html)
+    - [HTML](render.html?l=html&c=lectures/lecture3/colorpicker/colorpicker.html)
+    - [JS](render.html?l=js&c=lectures/lecture3/colorpicker/colorpicker.js)
 
 <div class="blockheading" style="border-color: var(--info)">Thursday Lecture: TBA</div>
 
