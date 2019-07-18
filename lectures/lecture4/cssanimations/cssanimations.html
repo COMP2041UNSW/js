@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #container {
+                width: 200px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: solid 1px;
+            }
+            #testobject {
+                width: 60px;
+                height: 60px;
+                background-color: cyan;
+
+                animation-duration: 1s;
+            }
+            
+            /* To  add more animations, add the CSS for the keyframes here, then add an optopnm
+            to the `animationName` select statement below */
+            @keyframes rotate {
+                from { transform: rotate(360deg); }
+                to { transform: rotate(0deg); }
+            }
+            @keyframes zoom {
+                from { transform: scale(1.5); }
+                to { transform: scale(1); }
+            }
+            @keyframes fade {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+            @keyframes slide {
+                from { transform: translateX(0); }
+                to { transform: translateX(100%); }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="testobject"></div>
+        </div>
+        <form target="#">
+            animation-name:
+            <select name="animationName">
+                <option value="rotate">rotate</option>
+                <option value="zoom">zoom</option>
+                <option value="fade">fade</option>
+                <option value="slide">slide</option>
+            </select><br/>
+            animation-duration:
+            <input name="animationDuration" type="number">s <br/>
+            animation-timing-function:
+            <select name="animationTimingFunction">
+                <option value="ease">ease</option>
+                <option value="ease-in">ease-in</option>
+                <option value="ease-out">ease-out</option>
+                <option value="ease-in-out">ease-in-out</option>
+                <option value="linear">linear</option>
+                <option value="linear">step-start</option>
+                <option value="linear">step-end</option>
+            </select><br/>
+            animation-delay:
+            <input name="animationDelay" type="number">s <br/>
+            animation-iteration-count:
+            <input name="animationIterationCount" type="number">s <br/>
+            infinite: <input name="infinite" type="checkbox"> <br/>
+            animation-direction:
+            <select name="animationDirection">
+                <option value="normal">normal</option>
+                <option value="reverse">reverse</option>
+                <option value="alternate">alternate</option>
+                <option value="alternate-reverse">alternate-reverse</option>
+            </select><br/>
+            <input type="submit" value="run animation!">
+        </form>
+        <script src="cssanimations.js"></script>
+    </body>
+</html>
