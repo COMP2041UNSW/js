@@ -106,12 +106,13 @@ Note not all of the provided examples were covered in the lecture but the are al
     - [JS](render.html?l=js&c=lectures/lecture3/colorpicker/colorpicker.js)
 
 <div class="blockheading" style="border-color: var(--info)">Thursday Lecture: Events Continued, CSS animations and Forms</div>
+
 - Download Slides - TBA
 
 - CSS Animations Interactive Example
-- [Live](lectures/lecture4/cssanimations/cssanimations.html)
-- [HTML](render.html?l=html&c=lectures/lecture4/cssanimations/cssanimations.html)
-- [JS](render.html?l=js&c=lectures/lecture4/cssanimations/cssanimations.js)
+    - [Live](lectures/lecture4/cssanimations/cssanimations.html)
+    - [HTML](render.html?l=html&c=lectures/lecture4/cssanimations/cssanimations.html)
+    - [JS](render.html?l=js&c=lectures/lecture4/cssanimations/cssanimations.js)
 
 ### Week 3 - Async Programming And You
 <hr class="underline" style="background: var(--purple)">
