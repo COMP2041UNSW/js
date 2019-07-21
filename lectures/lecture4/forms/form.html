@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+            .form {
+                display: flex;
+                flex-direction: column;
+            }
+            .form > * {
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form class="form" name="login">
+                <h3>Login</h3>
+                <input placeholder="Username" type="text" name="username">
+                <input placeholder="Password" type="password" name="password">
+                <input type="submit" value="Login">
+            </form>
+            <form class="form" name="create_account">
+                <h3>Create an Account</h3>
+                <input placeholder="Username" type="text" name="username">
+                <input placeholder="New Password" type="password" name="password1">
+                <input placeholder="Repeat Password" type="password" name="password2">
+                <input type="date" name="dob">
+                <select name=”state”>
+                    <option value="NSW">NSW</option>
+                    <option value="NSW">VIC</option>
+                    <option value="NSW">QLD</option>
+                </select>
+                <input type="submit" value="Create">
+            </form>
+        </div>
+        <script src="form.js"></script>
+    </body>
+</html>
