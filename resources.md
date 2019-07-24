@@ -64,7 +64,7 @@ Additional resources you may find useful from around the web.
 * [Google](https://google.github.io/styleguide/htmlcssguide.html)
 * [Idiomatic HTML](https://github.com/necolas/idiomatic-html)
 * [Idiomatic CSS](https://github.com/necolas/idiomatic-css)
-* [In the <head>](https://github.com/joshbuchea/HEAD)
+* [In the head](https://github.com/joshbuchea/HEAD)
 * [Maintainable CSS](https://maintainablecss.com/)
 * [CSS Guidelines](https://cssguidelin.es/)
  
