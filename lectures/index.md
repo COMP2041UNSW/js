@@ -115,12 +115,64 @@ Note not all of the provided examples were covered in the lecture but the are al
     - [JS](render.html?l=js&c=lectures/lecture4/cssanimations/cssanimations.js)
 - Forms Example
     - [Live](lectures/lecture4/forms/form.html)
-    - [HTML](render.html?l=html&c=lectures/lecture4/cssanimations/form.html)
-    - [JS](render.html?l=js&c=lectures/lecture4/cssanimations/form.js)
+    - [HTML](render.html?l=html&c=lectures/lecture4/forms/form.html)
+    - [JS](render.html?l=js&c=lectures/lecture4/forms/form.js)
 
 ### Week 3 - Async Programming And You
 <hr class="underline" style="background: var(--purple)">
 
-<div class="blockheading" style="border-color: var(--purple)">Tuesday Lecture: TBA</div>
+<div class="blockheading" style="border-color: var(--purple)">Tuesday Lecture: Intro to Async, The event loop, XMLHTTP and Intro to Promises</div>
 
-<div class="blockheading" style="border-color: var(--purple)">Thursday Lecture: TBA</div>
+- [Download Slides](lectures/pdfs/lecture-5-async-programming-and-you-1.pdf)
+- async
+    - [Live](lectures/lecture5/async/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/async/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/async/index.js)
+- event-loop
+    - [Live](lectures/lecture5/event-loop/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/event-loop/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/event-loop/index.js)
+- hacker
+    - [Live](lectures/lecture5/hacker/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/hacker/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/hacker/index.js)
+- import (modules)
+    - [Live](lectures/lecture5/import/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/import/index.html)
+    - [index.js](render.html?l=js&c=lectures/lecture5/import/index.js)
+    - [battery.js](render.html?l=js&c=lectures/lecture5/import/battery.js)
+    - [function.js](render.html?l=js&c=lectures/lecture5/import/function.js)
+    - [simple.js](render.html?l=js&c=lectures/lecture5/import/simple.js)
+- pokemon
+    - [Live](lectures/lecture5/pokemon/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/pokemon/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/pokemon/index.js)
+- pokemon-promises
+    - [Live](lectures/lecture5/pokemon-promises/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/pokemon-promises/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/pokemon-promises/index.js)
+- timer
+    - [Live](lectures/lecture5/timer/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture5/timer/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture5/timer/index.js)
+
+<div class="blockheading" style="border-color: var(--purple)">Thursday Lecture: Promise++, The assignment and beyond</div>
+
+- [Download Slides](lectures/pdfs/lecture-5-async-programming-and-you-2.pdf)
+- base64
+    - [Live](lectures/lecture6/base64/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture6/base64/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture6/base64/index.js)
+- hacker-promises
+    - [Live](lectures/lecture6/hacker-promises/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture6/hacker-promises/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture6/hacker-promises/index.js)
+- iss
+    - [Live](lectures/lecture6/iss/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture6/iss/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture6/iss/index.js)
+- hacker-async
+    - NOTE: this is how to do hacker but with async await, was not covered in lecture due to lack of time
+    - [Live](lectures/lecture6/hacker-async/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture6/hacker-async/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture6/hacker-async/index.js)
