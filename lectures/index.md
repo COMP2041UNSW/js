@@ -176,3 +176,9 @@ Note not all of the provided examples were covered in the lecture but the are al
     - [Live](lectures/lecture6/hacker-async/index.html)
     - [HTML](render.html?l=html&c=lectures/lecture6/hacker-async/index.html)
     - [JS](render.html?l=js&c=lectures/lecture6/hacker-async/index.js)
+
+- hash-router
+    - NOTE: this is how to do hash-based routing, was not covered in lecture due to lack of time
+    - [Live](lectures/lecture6/routing/index.html)
+    - [HTML](render.html?l=html&c=lectures/lecture6/routing/index.html)
+    - [JS](render.html?l=js&c=lectures/lecture6/routing/script.js)

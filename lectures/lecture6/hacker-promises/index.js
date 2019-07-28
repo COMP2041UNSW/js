@@ -5,7 +5,7 @@
 // s milliseconds
 function wait(s) {
     return new Promise((resolve) => {
-        setTimeout(() => resolve(), s)
+        setTimeout(resolve, s)
     })
 }
 
