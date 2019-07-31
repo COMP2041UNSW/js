@@ -75,3 +75,18 @@ Additional resources you may find useful from around the web.
 * [NodeJS Debugger](https://github.com/GoogleChromeLabs/ndb)
 * [High-level JS Functions animated](https://medium.com/@js_tut/map-filter-and-reduce-animated-7fe391a35a47)
 * [Nicer debugging - console.table()](https://umaar.com/dev-tips/82-console-table/)
+
+## Tutorial Examples
+
+- blocked
+    - [Live](tutorial-examples/blocked)
+    - [HTML](render.html?l=html&c=tutorial-examples/blocked/index.html)
+    - [JS](render.html?l=js&c=tutorial-examples/blocked/blocked.js)
+- promises
+    - [Live](tutorial-examples/promises)
+    - [HTML](render.html?l=html&c=tutorial-examples/blocked/index.html)
+    - [JS](render.html?l=js&c=tutorial-examples/blocked/blocked.js)
+- timeouts
+    - [Live](tutorial-examples/timeouts)
+    - [HTML](render.html?l=html&c=tutorial-examples/timeouts/index.html)
+    - [JS](render.html?l=js&c=tutorial-examples/timeouts/timeout.js)
